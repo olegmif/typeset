@@ -129,7 +129,7 @@ func main() {
 	out := "out.pgm"
 	check(writePGM(out, w, h, goBuf))
 
-	fmt.Print("Wrote %s (%dx%d)\n", out, w, h)
+	fmt.Printf("Wrote %s (%dx%d)\n", out, w, h)
 	fmt.Println("Preview (пример):")
 	fmt.Println("   feh out.pgm")
 	fmt.Println("Convert to PNG:")
